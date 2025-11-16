@@ -392,3 +392,41 @@ HTTP Cookie Manager allows JMeter to store and send cookies automatically while 
 - E-commerce flows with shopping carts  
 - Any scenario requiring session continuity
 
+---
+
+## Section 06 – Assertions in JMeter
+
+Assertions in JMeter are used to validate responses and determine whether a request has passed or failed. They are essential for ensuring that the application behaves as expected under load.
+
+---
+
+### How to Validate JMeter Tests – Pass/Fail Status
+
+- Assertions evaluate the response of a sampler.  
+- If the response does not meet the defined criteria, the sampler is marked as **failed**.  
+- Results can be observed in listeners such as **View Results Tree** or **Aggregate Report**.
+
+---
+
+### Types of Assertions
+
+JMeter provides several types of assertions to validate test results:
+
+1. **Response Assertion**  
+   - Checks if the response contains, matches, or does not contain a specific string or pattern.  
+   - Example: Validate that the login response contains "Welcome, user".  
+
+2. **Size Assertion**  
+   - Validates the size of the response in bytes.  
+   - Example: Ensure that the response payload is exactly 1024 bytes.  
+
+3. **Duration Assertion**  
+   - Checks that the response time is within an expected limit.  
+   - Example: Fail the request if it takes longer than 500 ms.  
+
+**Use Cases:**  
+- Verify correct page content is returned  
+- Ensure API responses are within acceptable size limits  
+- Monitor performance thresholds and response times  
+
+By adding assertions, your JMeter test becomes more reliable and provides meaningful Pass/Fail results during load testing.
