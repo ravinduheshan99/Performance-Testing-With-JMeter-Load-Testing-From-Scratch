@@ -355,3 +355,40 @@ Default Thread Groups are sufficient for simple tests but cannot model real-worl
 - Allow long-duration tests that reveal performance trends  
 
 Using these thread groups results in more accurate performance data and insights relevant to real-world scenarios.
+
+---
+
+## Section 05 - HTTP Cookie Manager to Capture Sessions
+
+HTTP Cookie Manager allows JMeter to store and send cookies automatically while executing requests. This simulates a real browser’s behavior and is essential for applications that maintain session state across multiple requests.
+
+---
+
+### Why We Need a Cookie Manager
+
+- Many web applications use cookies to track user sessions.  
+- Without a cookie manager, requests may appear as separate users, causing test failures or inaccurate results.  
+- Ensures continuity of login sessions, shopping carts, and other user-specific flows.  
+
+---
+
+### Usage of Cookie Manager in JMeter Tests
+
+1. Add **HTTP Cookie Manager** to your Test Plan or Thread Group.  
+2. By default, it stores cookies sent by the server and automatically includes them in subsequent requests.  
+3. You can configure it to:  
+   - Clear cookies each iteration  
+   - Use a specific policy (standard, netscape, or best-match)  
+   - Store cookies for multiple domains  
+
+**Example:**  
+- User logs in → Server sends session cookie  
+- Cookie Manager saves the session cookie  
+- Subsequent requests include the cookie → Server recognizes the user session  
+
+**Use Cases:**  
+- Login/logout scenarios  
+- Maintaining sessions across multiple pages  
+- E-commerce flows with shopping carts  
+- Any scenario requiring session continuity
+
