@@ -37,7 +37,7 @@ The following notes cover theory and explanations from Sections 01 to 03 of the 
 
 ---
 
-## Section 01 – Introduction  
+## Section 01 - Introduction  
 ### Introduction to JMeter
 
 Apache JMeter is an open-source tool used to measure performance and apply load on web applications, APIs, and backend systems. It is widely used for HTTP and REST API testing, but it also supports JDBC, FTP, SMTP, SOAP, JMS, and other protocols.
@@ -135,7 +135,7 @@ These examples help understand scaling and throughput behaviour.
 
 ---
 
-## Section 02 – Recording JMeter Scripts  
+## Section 02 - Recording JMeter Scripts  
 ### Effective Learning Tips
 
 - Record several scenarios for practice  
@@ -169,7 +169,7 @@ When replaying:
 
 ---
 
-## Section 03 – Applying Load and Analysing Performance  
+## Section 03 - Applying Load and Analysing Performance  
 ### Thread Groups
 
 A Thread Group defines the virtual user configuration.
@@ -274,4 +274,84 @@ Throughput helps determine how well a server handles increased load.
 
 ---
 
-These notes summarize the foundational topics covered in Sections 01 to 03. They serve as a reference for building and analysing performance test plans throughout this repository.
+## Section 04 - Advanced Thread Group Methods for Real-Time Load  
+
+This section introduces additional JMeter plugins that enable realistic and flexible load patterns. These tools allow precise control over how users start, hold, and stop during a test. They are especially useful for modeling production-like scenarios.
+
+---
+
+### Additional Plugins for Advanced Load Models  
+
+JMeter’s plugin manager provides extended thread groups that simulate complex load behavior, including gradual user growth, constant concurrency, and staged spikes. These thread groups are ideal for long-duration or multi-stage load tests.  
+
+**Installation:**  
+Install through the JMeter Plugins Manager. After installation, the new thread groups appear in the **Thread Group** menu of the Test Plan.
+
+---
+
+### Concurrency Thread Group  
+
+The Concurrency Thread Group focuses on maintaining a steady number of active virtual users, rather than just controlling the total number of threads.  
+
+**Key Settings:**  
+- Target Concurrency  
+- Ramp-up Time  
+- Hold Target Rate Time  
+- Ramp-down Time  
+- Steps (optional)  
+
+**Behavior:**  
+The plugin keeps the number of active threads equal to the target concurrency. If a thread finishes early, a new one starts automatically to maintain the load.  
+
+**Example:**  
+- Target concurrency: 50  
+- Ramp-up: 20 seconds  
+- Hold: 2 minutes  
+- Ramp-down: 15 seconds  
+
+This configuration gradually ramps up to 50 users, maintains the load for 2 minutes, then ramps down smoothly.  
+
+**Use Cases:**  
+- Steady-state load testing  
+- Baseline performance checks  
+- Scenarios requiring consistent active user counts  
+
+---
+
+### Ultimate Thread Group  
+
+The Ultimate Thread Group provides precise, multi-stage load control. Each stage can be configured with exact user count, ramp-up, hold, and ramp-down durations.  
+
+**Configuration Parameters:**  
+- Number of users  
+- Ramp-up duration  
+- Hold duration  
+- Ramp-down duration  
+
+**Example Scenario:**  
+
+| Stage | Users | Ramp-up | Hold | Ramp-down |  
+|-------|-------|---------|------|-----------|  
+| 1     | 30    | 10s     | 1m   | 10s       |  
+| 2     | 50    | 20s     | 2m   | 20s       |  
+
+This simulates a staged increase in load, producing realistic server stress patterns.  
+
+**Use Cases:**  
+- Capacity planning  
+- Stress tests with multiple waves  
+- Long-running endurance testing  
+- Production-like load simulation  
+
+---
+
+### Why Advanced Thread Groups Matter  
+
+Default Thread Groups are sufficient for simple tests but cannot model real-world traffic accurately. Advanced thread groups:  
+
+- Maintain steady concurrency for meaningful measurements  
+- Simulate gradual or staged load changes  
+- Prevent unrealistic spikes from simultaneous user starts  
+- Allow long-duration tests that reveal performance trends  
+
+Using these thread groups results in more accurate performance data and insights relevant to real-world scenarios.
