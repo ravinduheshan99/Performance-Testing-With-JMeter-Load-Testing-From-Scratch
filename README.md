@@ -682,3 +682,34 @@ Variables defined in the CSV element can be used within any sampler by calling t
 ### Automating Bulk User Registration With JMeter
 
 Once the CSV file and manual HTTP samplers are in place, JMeter can generate many user registrations in a short time. The test plan loops through every row of the CSV file and invokes the registration request with different inputs. This approach is effective for load preparation, data setup, or mass account creation.
+
+---
+
+### Section 11 - Introduction to BeanShell Scripting in JMeter
+
+This section introduces BeanShell scripting and shows how it adds flexible logic to JMeter test plans. BeanShell helps when a test needs decisions based on data, response handling, or custom variable updates that go beyond standard components.
+
+#### Why BeanShell Scripting Is Useful
+Many performance scenarios depend on values that change during execution. BeanShell allows you to:
+- Prepare dynamic values before a sampler runs  
+- Apply conditions based on input data  
+- Read sampler results and save information for later use  
+- Create small logic blocks that guide test flow  
+
+This makes the test plan more adaptable when dealing with dynamic systems.
+
+#### Where BeanShell Fits in JMeter
+JMeter provides two main BeanShell elements:
+- **BeanShell PreProcessor** runs before a sampler. It is suitable for setting variables, preparing request data, or building conditions that decide what the sampler should send.
+- **BeanShell PostProcessor** runs after a sampler. It helps read the response, capture details for following samplers, or add custom logs.
+
+These components give you finer control over how each request behaves.
+
+#### Important BeanShell Variables
+JMeter exposes several built-in objects for scripting:
+- `vars` holds JMeter variables and allows reading with `vars.get()` and writing with `vars.put()`.
+- `props` stores JMeter properties that remain available across the entire test.
+- `ctx` gives access to the current sampler context.
+- `prev` represents the previous sampler result and allows reading response data and status.
+
+They support logic that depends on request and response information.
