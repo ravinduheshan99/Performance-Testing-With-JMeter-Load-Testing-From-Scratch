@@ -433,7 +433,7 @@ By adding assertions, your JMeter test becomes more reliable and provides meanin
 
 ---
 
-## Section 07 – JMeter Controllers for Module-Wise Metrics  
+## Section 07 - JMeter Controllers for Module-Wise Metrics  
 
 ### Understanding Controllers in Performance Tests  
 Controllers shape test flow and let separate parts of a script act like real modules of an application. As test plans grow, controllers make it easier to organise samplers, compare the performance of different user paths, and track module-level behaviour.
@@ -492,3 +492,71 @@ Used for:
 
 Example:  
 A “Search Module” can sit inside a Simple Controller to hold the search page load, search action, and item selection requests.
+
+---
+
+### Interleave Controller  
+The Interleave Controller runs one child element per loop. This helps mimic users who move across different modules during a session.
+
+Typical use cases:  
+- Running “A → B → C” samplers in rotation  
+- Simulating alternating user flows  
+- Reducing repetitive execution of large blocks  
+
+---
+
+### Runtime Controller  
+A Runtime Controller runs its child samplers for a fixed length of time.
+
+This is helpful when:  
+- You need constant activity under a time budget  
+- Certain modules must run for a set duration  
+- Planning stress scenarios where some calls must be repeated for long periods  
+
+Example:  
+Run a search request for 60 seconds while other modules continue normally.
+
+---
+
+### Random Controller  
+A Random Controller selects one of its child samplers at random for each loop.
+
+Used for:  
+- Creating variation in test flows  
+- Simulating unpredictable user behaviour  
+- Avoiding too-rigid sequences during load tests  
+
+---
+
+### If Controller  
+The If Controller runs its children when a condition is true. It supports JMeter variables and functions.
+
+Helpful for:  
+- Conditional navigation  
+- Testing flows based on dynamic server responses  
+- Running samplers only when certain values exist  
+
+Example:  
+If a response contains a session token, run the next step.
+
+---
+
+### Loop Controller  
+A Loop Controller repeats its child samplers any number of times.
+
+Used to:  
+- Stress-test specific modules  
+- Repeat a particular request inside a larger flow  
+- Increase load on one part of the application  
+
+Example:  
+Repeat a search action 50 times inside a single user session.
+
+---
+
+### Practical Example in WebTours Demo  
+The WebTours sample application shows how controllers can separate login, search, booking, and sign-off modules. Each module can be grouped under Transaction Controllers, with a reusable login placed in a Test Fragment and invoked by Module Controllers. This arrangement makes it easy to measure which module slows down under load and to reuse common flows across scenarios.
+
+---
+
+This section explains how controllers produce readable, scalable scripts and how they support module-wise performance analysis as test plans grow more advanced.
