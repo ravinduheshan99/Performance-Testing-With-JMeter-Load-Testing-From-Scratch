@@ -605,3 +605,54 @@ Timers in JMeter are used to introduce delays between requests. This helps simul
 - Apply Constant Throughput Timer on the booking module to maintain a steady request rate under heavy load.  
 
 Timers make your test scenarios closer to real-life usage, resulting in more accurate performance measurements.
+
+---
+
+## Section 09 - Importance of Regular Expressions in JMeter
+
+This section explains why regular expression extractors are essential in JMeter when working with dynamic response data. Many applications return values that change during each run, such as session IDs, tokens, search results, booking references, or any parameter generated at runtime. Regular expression extractors help capture these values from server responses so that they can be reused in later requests.
+
+### Why We Use Regular Expression Extractors
+
+Regular expression extractors allow us to:
+
+- Capture dynamic values from HTML, JSON, XML, or plain text responses.
+- Correlate server responses with future requests.
+- Handle values that change between test runs, which makes scripts stable and reusable.
+- Work with patterns that appear multiple times in a response.
+- Validate captured values using debug samplers.
+
+They form the core of correlation in performance testing.
+
+### Practical Example: Flight Search Application
+
+In this exercise, we work with a flight search workflow where the server returns several dynamic fields after a search request. The script uses a Regular Expression Extractor to capture values such as:
+
+- Flight ID
+- Price
+- Airline code
+- Session token
+
+These extracted values are then used in later samplers to complete the booking flow.
+
+### Combining Multiple Expressions Into a Single Extractor
+
+A single Regular Expression Extractor can extract more than one variable by defining groups within one pattern. This helps keep the script clean and reduces the number of extractors in the test plan.
+
+For example:
+
+- A single pattern may capture flight code, price, and seat class.
+- Group references such as `$1`, `$2`, `$3` store the captured values.
+- Each group is assigned to its own JMeter variable.
+
+This method is efficient when the response structure is predictable.
+
+### Extracting Multiple Variables With One Extractor (Using Debug Samplers)
+
+To confirm that extracted variables contain correct values, Debug Samplers are added to the test plan. They help validate:
+
+- Correct matching of the regular expression.
+- Proper assignment of variables.
+- Handling of multiple matches if the server returns lists of values.
+
+This step is important to ensure accuracy before scaling the load test.
