@@ -347,7 +347,7 @@ This simulates a staged increase in load, producing realistic server stress patt
 
 ### Why Advanced Thread Groups Matter  
 
-Default Thread Groups are sufficient for simple tests but cannot model real-world traffic accurately. Advanced thread groups:  
+Default Thread Groups are sufficient for simple tests, but cannot model real-world traffic accurately. Advanced thread groups:  
 
 - Maintain steady concurrency for meaningful measurements  
 - Simulate gradual or staged load changes  
@@ -378,7 +378,7 @@ HTTP Cookie Manager allows JMeter to store and send cookies automatically while 
 2. By default, it stores cookies sent by the server and automatically includes them in subsequent requests.  
 3. You can configure it to:  
    - Clear cookies each iteration  
-   - Use a specific policy (standard, netscape, or best-match)  
+   - Use a specific policy (standard, Netscape, or best-match)  
    - Store cookies for multiple domains  
 
 **Example:**  
@@ -430,3 +430,65 @@ JMeter provides several types of assertions to validate test results:
 - Monitor performance thresholds and response times  
 
 By adding assertions, your JMeter test becomes more reliable and provides meaningful Pass/Fail results during load testing.
+
+---
+
+## Section 07 – JMeter Controllers for Module-Wise Metrics  
+
+### Understanding Controllers in Performance Tests  
+Controllers shape test flow and let separate parts of a script act like real modules of an application. As test plans grow, controllers make it easier to organise samplers, compare the performance of different user paths, and track module-level behaviour.
+
+---
+
+### Module Controller and Include Controller  
+Use these controllers to reuse test fragments and keep large test plans modular and maintainable.
+
+**Module Controller**  
+- Selects and runs another Controller or sampler defined elsewhere in the same Test Plan.  
+- Useful for calling a common module, for example, a login flow, from multiple places without duplicating samplers.  
+- Keep the target module inside a named controller or Test Fragment and point the Module Controller to it.
+
+**Include Controller**  
+- Loads an external `.jmx` test fragment at runtime.  
+- Helps split large test suites across files and share common modules across projects.  
+- The included file should contain the module under a Simple Controller or Test Fragment.
+
+**Test Fragment**  
+- A special container intended for reusable modules.  
+- Not executed on its own. Use Module Controller or Include Controller to invoke it.
+
+**Example usage**  
+1. Create a Test Fragment or Simple Controller named `Login Module` with login samplers.  
+2. Add a Module Controller in each place where login is needed and select `Login Module` as the target.  
+3. To reuse `Login Module` across repositories, move it to `login-module.jmx` and use an Include Controller to load it.
+
+**Benefits**  
+- Single source of truth for common flows  
+- Easier updates and debugging  
+- Cleaner metrics per module when used with Transaction Controllers
+
+---
+
+### Transaction Controller  
+A Transaction Controller groups several samplers and records a single time for the group. This helps measure the end-to-end response time of a complete user action, such as login, profile load, or booking.
+
+Key notes:  
+- Measures the combined time of child samplers  
+- Can include or exclude the time of child controllers  
+- Useful for module-wise performance tracking  
+
+Example:  
+A login flow with three requests can be placed under one Transaction Controller to compare the full login time against other modules.
+
+---
+
+### Simple Controller  
+A Simple Controller keeps related samplers together for readability. It does not create extra metrics by itself.
+
+Used for:  
+- Structuring scripts  
+- Keeping modules separate  
+- Cleaning complex test plans  
+
+Example:  
+A “Search Module” can sit inside a Simple Controller to hold the search page load, search action, and item selection requests.
