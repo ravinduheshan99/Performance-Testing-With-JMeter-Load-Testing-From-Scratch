@@ -656,3 +656,29 @@ To confirm that extracted variables contain correct values, Debug Samplers are a
 - Handling of multiple matches if the server returns lists of values.
 
 This step is important to ensure accuracy before scaling the load test.
+
+---
+
+## Section 10 - Data Driven Testing With JMeter
+
+This section explains how to design HTTP request samplers manually and drive them with external data. Data-driven testing is useful when you need to simulate many users, repeat workflows with different inputs, or automate large batches of registrations or transactions in a short time.
+
+### Creating HTTP Request Samplers Without Recording
+
+The tests start with samplers built by hand instead of using the recorder. Each request is added with the needed method, path, headers, and parameters. This gives full control of the structure of the test plan and keeps the script clear and predictable.
+
+### Feeding Data Into the Application
+
+JMeter supports data-driven testing through the CSV Data Set Config element. This element reads values from a CSV file and loads them into variables at runtime. Each row represents one user or one set of inputs, and JMeter moves through each row during execution.
+
+### Defining Variables With CSV Data Set Config
+
+CSV Data Set Config allows you to map each column in the CSV file to a variable name. These variables hold values such as usernames, passwords, email addresses, or profile details. The sampler uses these variables during each loop, allowing the script to simulate many unique user flows.
+
+### Using Variables Inside Manually Created HTTP Requests
+
+Variables defined in the CSV element can be used within any sampler by calling them with the standard JMeter syntax. This keeps the HTTP requests dynamic because each run picks the next row from the CSV file. It also prevents duplication of samplers when testing multiple input sets.
+
+### Automating Bulk User Registration With JMeter
+
+Once the CSV file and manual HTTP samplers are in place, JMeter can generate many user registrations in a short time. The test plan loops through every row of the CSV file and invokes the registration request with different inputs. This approach is effective for load preparation, data setup, or mass account creation.
