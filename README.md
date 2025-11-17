@@ -560,3 +560,48 @@ The WebTours sample application shows how controllers can separate login, search
 ---
 
 This section explains how controllers produce readable, scalable scripts and how they support module-wise performance analysis as test plans grow more advanced.
+
+---
+
+## Section 08 - Timers in JMeter  
+
+### Understanding Timers  
+Timers in JMeter are used to introduce delays between requests. This helps simulate real user behavior, as users do not send requests continuously without pause. Proper use of timers ensures a more realistic load and prevents servers from being overloaded unnaturally.  
+
+---
+
+### Common Timer Types
+
+1. **Constant Timer**  
+   - Adds a fixed delay between requests.  
+   - Example: A 2-second delay between each sampler to simulate user think time.  
+
+2. **Gaussian Random Timer**  
+   - Adds a variable delay based on a Gaussian distribution.  
+   - Produces a more natural, realistic delay pattern.  
+   - Example: Average delay = 2000 ms, deviation = 500 ms → most delays fall between 1500–2500 ms.  
+
+3. **Constant Throughput Timer**  
+   - Controls throughput rather than individual delays.  
+   - Ensures that a target number of requests per minute/second is maintained.  
+   - Example: Target throughput = 60 requests per minute → timer adjusts delays dynamically to maintain this rate.  
+
+---
+
+### Why Timers Matter
+
+- Prevents sending all requests at once, which can overload the server.  
+- Simulates real user think time.  
+- Helps maintain consistent throughput for performance testing.  
+- Works with different Thread Groups and Controllers to shape load effectively.  
+
+---
+
+### Practical Example
+
+- Scenario: Login → Search → Booking  
+- Apply a Constant Timer of 2 seconds between each sampler to mimic the user's reading/thinking time.  
+- Use Gaussian Random Timer on search requests to simulate variation in user input speed.  
+- Apply Constant Throughput Timer on the booking module to maintain a steady request rate under heavy load.  
+
+Timers make your test scenarios closer to real-life usage, resulting in more accurate performance measurements.
