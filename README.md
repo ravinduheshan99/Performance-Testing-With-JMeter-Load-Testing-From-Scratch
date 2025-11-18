@@ -713,3 +713,46 @@ JMeter exposes several built-in objects for scripting:
 - `prev` represents the previous sampler result and allows reading response data and status.
 
 They support logic that depends on request and response information.
+
+---
+
+## 12. Handling Dynamic Responses
+
+Dynamic values often appear in real applications, especially in flows that involve authentication, session handling, or server-generated tokens. These values change with every request, so they cannot be hardcoded. JMeter needs a way to extract these values from earlier responses and reuse them in later requests. This process is known as correlation.
+
+### End-to-End Flow Example: Flight Reservation
+
+In the flight reservation workflow, several requests depend on data returned from earlier steps. One common example is the **userSession** value returned before the login call. If this value is not captured and passed correctly, the login request will fail.
+
+### Identifying Dynamic Values
+
+When a request fails or behaves unexpectedly, inspect the response of the previous sampler. Look for items such as:
+
+- Session IDs  
+- Tokens  
+- Request IDs  
+- Hidden form fields  
+- Dynamic query parameters  
+
+If the application regenerates these for every new session, they must be correlated.
+
+### Using a Regular Expression Extractor for Correlation
+
+Once a dynamic value is identified, extract it using a **Regular Expression Extractor**. This allows JMeter to store the captured value as a variable and pass it into later samplers.
+
+### Example: Capturing `userSession`
+
+In the flight reservation example, login fails because `userSession` is generated in a request made *before* the login call.
+
+**Fix:**  
+1. Open the sampler that returns the session in its response.  
+2. Add a **Regular Expression Extractor**.  
+3. Configure it to capture the `userSession` value.  
+4. Store it in a variable, such as `${userSession}`.  
+5. Replace the hardcoded session in the login request with this variable.
+
+This ensures the correct session value is passed each time, allowing login to succeed with the fresh dynamic value.
+
+### Summary
+
+Correlation is essential in performance testing for any application that generates dynamic data. Proper extraction and variable handling ensure that the test flow behaves like a real user session and avoids invalid session errors.
