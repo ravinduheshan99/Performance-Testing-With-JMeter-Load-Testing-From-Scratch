@@ -1,0 +1,351 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1763437977243,2192,/login-93,200,OK,Thread Group 1-31,text,true,,3688,465,50,50,https://the-internet.herokuapp.com/login,2192,0,1872
+1763437977196,2244,/login-93,200,OK,Thread Group 1-23,text,true,,3688,465,50,50,https://the-internet.herokuapp.com/login,2244,0,1931
+1763437977534,1910,/login-93,200,OK,Thread Group 1-45,text,true,,3688,465,50,50,https://the-internet.herokuapp.com/login,1910,0,1597
+1763437977105,2331,/login-93,200,OK,Thread Group 1-6,text,true,,3688,465,50,50,https://the-internet.herokuapp.com/login,2330,0,2010
+1763437977429,2007,/login-93,200,OK,Thread Group 1-39,text,true,,3688,465,50,50,https://the-internet.herokuapp.com/login,2006,0,1688
+1763437977490,1949,/login-93,200,OK,Thread Group 1-40,text,true,,3688,465,50,50,https://the-internet.herokuapp.com/login,1948,0,1632
+1763437977569,1870,/login-93,200,OK,Thread Group 1-50,text,true,,3688,465,50,50,https://the-internet.herokuapp.com/login,1870,0,1553
+1763437977105,2334,/login-93,200,OK,Thread Group 1-5,text,true,,3688,465,50,50,https://the-internet.herokuapp.com/login,2334,0,2021
+1763437977536,1899,/login-93,200,OK,Thread Group 1-44,text,true,,3688,465,50,50,https://the-internet.herokuapp.com/login,1899,0,1580
+1763437977154,2285,/login-93,200,OK,Thread Group 1-17,text,true,,3688,465,50,50,https://the-internet.herokuapp.com/login,2285,0,1967
+1763437977109,2331,/login-93,200,OK,Thread Group 1-4,text,true,,3688,465,50,50,https://the-internet.herokuapp.com/login,2331,0,2022
+1763437977220,2219,/login-93,200,OK,Thread Group 1-25,text,true,,3688,465,50,50,https://the-internet.herokuapp.com/login,2219,0,1906
+1763437977410,2025,/login-93,200,OK,Thread Group 1-35,text,true,,3688,465,50,50,https://the-internet.herokuapp.com/login,2025,0,1711
+1763437977202,2250,/login-93,200,OK,Thread Group 1-28,text,true,,3688,465,50,50,https://the-internet.herokuapp.com/login,2250,0,1932
+1763437977106,2346,/login-93,200,OK,Thread Group 1-15,text,true,,3688,465,50,50,https://the-internet.herokuapp.com/login,2346,0,2027
+1763437977419,2034,/login-93,200,OK,Thread Group 1-37,text,true,,3688,465,50,50,https://the-internet.herokuapp.com/login,2034,0,1712
+1763437977258,2196,/login-93,200,OK,Thread Group 1-32,text,true,,3688,465,50,50,https://the-internet.herokuapp.com/login,2195,0,1875
+1763437977515,1939,/login-93,200,OK,Thread Group 1-48,text,true,,3688,465,50,50,https://the-internet.herokuapp.com/login,1939,0,1617
+1763437977108,2346,/login-93,200,OK,Thread Group 1-1,text,true,,3688,465,50,50,https://the-internet.herokuapp.com/login,2346,0,2025
+1763437977110,2345,/login-93,200,OK,Thread Group 1-12,text,true,,3688,465,50,50,https://the-internet.herokuapp.com/login,2345,0,2022
+1763437977106,2349,/login-93,200,OK,Thread Group 1-14,text,true,,3688,465,50,50,https://the-internet.herokuapp.com/login,2349,0,2026
+1763437977106,2350,/login-93,200,OK,Thread Group 1-13,text,true,,3688,465,50,50,https://the-internet.herokuapp.com/login,2350,0,2029
+1763437977512,1946,/login-93,200,OK,Thread Group 1-43,text,true,,3688,465,50,50,https://the-internet.herokuapp.com/login,1946,0,1623
+1763437977158,2312,/login-93,200,OK,Thread Group 1-16,text,true,,3688,465,50,50,https://the-internet.herokuapp.com/login,2312,0,1979
+1763437977176,2296,/login-93,200,OK,Thread Group 1-18,text,true,,3688,465,50,50,https://the-internet.herokuapp.com/login,2296,0,1958
+1763437977413,2059,/login-93,200,OK,Thread Group 1-36,text,true,,3688,465,50,50,https://the-internet.herokuapp.com/login,2059,0,1724
+1763437977404,2069,/login-93,200,OK,Thread Group 1-34,text,true,,3688,465,50,50,https://the-internet.herokuapp.com/login,2069,0,1731
+1763437977547,1941,/login-93,200,OK,Thread Group 1-49,text,true,,3688,465,50,50,https://the-internet.herokuapp.com/login,1941,0,1590
+1763437977502,1986,/login-93,200,OK,Thread Group 1-42,text,true,,3688,465,50,50,https://the-internet.herokuapp.com/login,1986,0,1635
+1763437977178,2312,/login-93,200,OK,Thread Group 1-22,text,true,,3688,465,50,50,https://the-internet.herokuapp.com/login,2312,0,1964
+1763437977228,2262,/login-93,200,OK,Thread Group 1-26,text,true,,3688,465,50,50,https://the-internet.herokuapp.com/login,2262,0,1932
+1763437977164,2327,/login-93,200,OK,Thread Group 1-20,text,true,,3688,465,50,50,https://the-internet.herokuapp.com/login,2327,0,1979
+1763437977217,2275,/login-93,200,OK,Thread Group 1-29,text,true,,3688,465,50,50,https://the-internet.herokuapp.com/login,2275,0,1920
+1763437977106,2386,/login-93,200,OK,Thread Group 1-2,text,true,,3688,465,50,50,https://the-internet.herokuapp.com/login,2386,0,2036
+1763437977106,2386,/login-93,200,OK,Thread Group 1-8,text,true,,3688,465,50,50,https://the-internet.herokuapp.com/login,2386,0,2042
+1763437977566,1929,/login-93,200,OK,Thread Group 1-46,text,true,,3688,465,50,50,https://the-internet.herokuapp.com/login,1929,0,1575
+1763437977106,2389,/login-93,200,OK,Thread Group 1-10,text,true,,3688,465,50,50,https://the-internet.herokuapp.com/login,2389,0,2042
+1763437977238,2257,/login-93,200,OK,Thread Group 1-30,text,true,,3688,465,50,50,https://the-internet.herokuapp.com/login,2257,0,1923
+1763437977498,1999,/login-93,200,OK,Thread Group 1-41,text,true,,3688,465,50,50,https://the-internet.herokuapp.com/login,1999,0,1662
+1763437977376,2122,/login-93,200,OK,Thread Group 1-33,text,true,,3688,465,50,50,https://the-internet.herokuapp.com/login,2122,0,1773
+1763437977106,2393,/login-93,200,OK,Thread Group 1-3,text,true,,3688,465,50,50,https://the-internet.herokuapp.com/login,2393,0,2054
+1763437977107,2394,/login-93,200,OK,Thread Group 1-7,text,true,,3688,465,50,50,https://the-internet.herokuapp.com/login,2394,0,2042
+1763437977106,2396,/login-93,200,OK,Thread Group 1-11,text,true,,3688,465,50,50,https://the-internet.herokuapp.com/login,2396,0,2073
+1763437977203,2300,/login-93,200,OK,Thread Group 1-24,text,true,,3688,465,50,50,https://the-internet.herokuapp.com/login,2300,0,1946
+1763437977193,2311,/login-93,200,OK,Thread Group 1-27,text,true,,3688,465,50,50,https://the-internet.herokuapp.com/login,2311,0,1956
+1763437977424,2082,/login-93,200,OK,Thread Group 1-38,text,true,,3688,465,50,50,https://the-internet.herokuapp.com/login,2082,0,1736
+1763437977187,2319,/login-93,200,OK,Thread Group 1-19,text,true,,3688,465,50,50,https://the-internet.herokuapp.com/login,2319,0,1954
+1763437977108,2399,/login-93,200,OK,Thread Group 1-9,text,true,,3688,465,50,50,https://the-internet.herokuapp.com/login,2399,0,2052
+1763437977172,2352,/login-93,200,OK,Thread Group 1-21,text,true,,3688,465,50,50,https://the-internet.herokuapp.com/login,2352,0,2007
+1763437977507,2017,/login-93,200,OK,Thread Group 1-47,text,true,,3688,465,50,50,https://the-internet.herokuapp.com/login,2017,0,1672
+1763437979450,577,/authenticate-104,200,OK,Thread Group 1-5,text,true,,4788,2441,50,50,https://the-internet.herokuapp.com/secure,293,0,0
+1763437979450,293,/authenticate-104-0,303,See Other,Thread Group 1-5,text,true,,1466,1208,50,50,https://the-internet.herokuapp.com/authenticate,293,0,0
+1763437979744,283,/authenticate-104-1,200,OK,Thread Group 1-5,text,true,,3322,1233,50,50,https://the-internet.herokuapp.com/secure,283,0,0
+1763437979449,582,/authenticate-104,200,OK,Thread Group 1-39,text,true,,4788,2441,50,50,https://the-internet.herokuapp.com/secure,296,0,0
+1763437979449,296,/authenticate-104-0,303,See Other,Thread Group 1-39,text,true,,1466,1208,50,50,https://the-internet.herokuapp.com/authenticate,296,0,0
+1763437979746,285,/authenticate-104-1,200,OK,Thread Group 1-39,text,true,,3322,1233,50,50,https://the-internet.herokuapp.com/secure,285,0,0
+1763437979450,590,/authenticate-104,200,OK,Thread Group 1-4,text,true,,4788,2441,50,50,https://the-internet.herokuapp.com/secure,310,0,0
+1763437979450,310,/authenticate-104-0,303,See Other,Thread Group 1-4,text,true,,1466,1208,50,50,https://the-internet.herokuapp.com/authenticate,310,0,0
+1763437979761,279,/authenticate-104-1,200,OK,Thread Group 1-4,text,true,,3322,1233,50,50,https://the-internet.herokuapp.com/secure,279,0,0
+1763437979449,603,/authenticate-104,200,OK,Thread Group 1-35,text,true,,4788,2441,50,50,https://the-internet.herokuapp.com/secure,323,0,0
+1763437979449,323,/authenticate-104-0,303,See Other,Thread Group 1-35,text,true,,1466,1208,50,50,https://the-internet.herokuapp.com/authenticate,323,0,0
+1763437979773,279,/authenticate-104-1,200,OK,Thread Group 1-35,text,true,,3322,1233,50,50,https://the-internet.herokuapp.com/secure,279,0,0
+1763437979449,611,/authenticate-104,200,OK,Thread Group 1-23,text,true,,4788,2441,50,50,https://the-internet.herokuapp.com/secure,318,0,0
+1763437979450,623,/authenticate-104,200,OK,Thread Group 1-50,text,true,,4788,2441,50,50,https://the-internet.herokuapp.com/secure,333,0,0
+1763437979449,318,/authenticate-104-0,303,See Other,Thread Group 1-23,text,true,,1466,1208,50,50,https://the-internet.herokuapp.com/authenticate,318,0,0
+1763437979450,333,/authenticate-104-0,303,See Other,Thread Group 1-50,text,true,,1466,1208,50,50,https://the-internet.herokuapp.com/authenticate,333,0,0
+1763437979784,289,/authenticate-104-1,200,OK,Thread Group 1-50,text,true,,3322,1233,50,50,https://the-internet.herokuapp.com/secure,289,0,0
+1763437979768,292,/authenticate-104-1,200,OK,Thread Group 1-23,text,true,,3322,1233,50,50,https://the-internet.herokuapp.com/secure,292,0,0
+1763437979449,636,/authenticate-104,200,OK,Thread Group 1-40,text,true,,4788,2441,50,50,https://the-internet.herokuapp.com/secure,323,0,0
+1763437979449,323,/authenticate-104-0,303,See Other,Thread Group 1-40,text,true,,1466,1208,50,50,https://the-internet.herokuapp.com/authenticate,323,0,0
+1763437979773,312,/authenticate-104-1,200,OK,Thread Group 1-40,text,true,,3322,1233,50,50,https://the-internet.herokuapp.com/secure,312,0,0
+1763437979449,637,/authenticate-104,200,OK,Thread Group 1-44,text,true,,4788,2441,50,50,https://the-internet.herokuapp.com/secure,334,0,0
+1763437979449,334,/authenticate-104-0,303,See Other,Thread Group 1-44,text,true,,1466,1208,50,50,https://the-internet.herokuapp.com/authenticate,334,0,0
+1763437979784,302,/authenticate-104-1,200,OK,Thread Group 1-44,text,true,,3322,1233,50,50,https://the-internet.herokuapp.com/secure,302,0,0
+1763437979450,642,/authenticate-104,200,OK,Thread Group 1-25,text,true,,4788,2441,50,50,https://the-internet.herokuapp.com/secure,325,0,0
+1763437979450,325,/authenticate-104-0,303,See Other,Thread Group 1-25,text,true,,1466,1208,50,50,https://the-internet.herokuapp.com/authenticate,325,0,0
+1763437979775,317,/authenticate-104-1,200,OK,Thread Group 1-25,text,true,,3322,1233,50,50,https://the-internet.herokuapp.com/secure,317,0,0
+1763437979449,645,/authenticate-104,200,OK,Thread Group 1-45,text,true,,4788,2441,50,50,https://the-internet.herokuapp.com/secure,325,0,0
+1763437979457,637,/authenticate-104,200,OK,Thread Group 1-13,text,true,,4788,2441,50,50,https://the-internet.herokuapp.com/secure,328,0,0
+1763437979449,325,/authenticate-104-0,303,See Other,Thread Group 1-45,text,true,,1466,1208,50,50,https://the-internet.herokuapp.com/authenticate,325,0,0
+1763437979457,328,/authenticate-104-0,303,See Other,Thread Group 1-13,text,true,,1466,1208,50,50,https://the-internet.herokuapp.com/authenticate,328,0,0
+1763437979774,320,/authenticate-104-1,200,OK,Thread Group 1-45,text,true,,3322,1233,50,50,https://the-internet.herokuapp.com/secure,320,0,0
+1763437979786,308,/authenticate-104-1,200,OK,Thread Group 1-13,text,true,,3322,1233,50,50,https://the-internet.herokuapp.com/secure,308,0,0
+1763437979459,639,/authenticate-104,200,OK,Thread Group 1-43,text,true,,4788,2441,50,50,https://the-internet.herokuapp.com/secure,343,0,0
+1763437979459,343,/authenticate-104-0,303,See Other,Thread Group 1-43,text,true,,1466,1208,50,50,https://the-internet.herokuapp.com/authenticate,343,0,0
+1763437979449,649,/authenticate-104,200,OK,Thread Group 1-6,text,true,,4788,2441,50,50,https://the-internet.herokuapp.com/secure,336,0,0
+1763437979803,295,/authenticate-104-1,200,OK,Thread Group 1-43,text,true,,3322,1233,50,50,https://the-internet.herokuapp.com/secure,295,0,0
+1763437979449,336,/authenticate-104-0,303,See Other,Thread Group 1-6,text,true,,1466,1208,50,50,https://the-internet.herokuapp.com/authenticate,336,0,0
+1763437979786,312,/authenticate-104-1,200,OK,Thread Group 1-6,text,true,,3322,1233,50,50,https://the-internet.herokuapp.com/secure,312,0,0
+1763437979449,667,/authenticate-104,200,OK,Thread Group 1-31,text,true,,4788,2441,50,50,https://the-internet.herokuapp.com/secure,352,0,0
+1763437979449,352,/authenticate-104-0,303,See Other,Thread Group 1-31,text,true,,1466,1208,50,50,https://the-internet.herokuapp.com/authenticate,352,0,0
+1763437979802,314,/authenticate-104-1,200,OK,Thread Group 1-31,text,true,,3322,1233,50,50,https://the-internet.herokuapp.com/secure,314,0,0
+1763437979454,662,/authenticate-104,200,OK,Thread Group 1-48,text,true,,4788,2441,50,50,https://the-internet.herokuapp.com/secure,350,0,0
+1763437979454,350,/authenticate-104-0,303,See Other,Thread Group 1-48,text,true,,1466,1208,50,50,https://the-internet.herokuapp.com/authenticate,350,0,0
+1763437979456,660,/authenticate-104,200,OK,Thread Group 1-12,text,true,,4788,2441,50,50,https://the-internet.herokuapp.com/secure,346,0,0
+1763437979456,346,/authenticate-104-0,303,See Other,Thread Group 1-12,text,true,,1466,1208,50,50,https://the-internet.herokuapp.com/authenticate,346,0,0
+1763437979803,313,/authenticate-104-1,200,OK,Thread Group 1-12,text,true,,3322,1233,50,50,https://the-internet.herokuapp.com/secure,313,0,0
+1763437979451,665,/authenticate-104,200,OK,Thread Group 1-17,text,true,,4788,2441,50,50,https://the-internet.herokuapp.com/secure,355,0,0
+1763437979451,355,/authenticate-104-0,303,See Other,Thread Group 1-17,text,true,,1466,1208,50,50,https://the-internet.herokuapp.com/authenticate,355,0,0
+1763437979806,310,/authenticate-104-1,200,OK,Thread Group 1-17,text,true,,3322,1233,50,50,https://the-internet.herokuapp.com/secure,310,0,0
+1763437979804,312,/authenticate-104-1,200,OK,Thread Group 1-48,text,true,,3322,1233,50,50,https://the-internet.herokuapp.com/secure,312,0,0
+1763437979456,663,/authenticate-104,200,OK,Thread Group 1-14,text,true,,4788,2441,50,50,https://the-internet.herokuapp.com/secure,348,0,0
+1763437979456,348,/authenticate-104-0,303,See Other,Thread Group 1-14,text,true,,1466,1208,50,50,https://the-internet.herokuapp.com/authenticate,348,0,0
+1763437979805,314,/authenticate-104-1,200,OK,Thread Group 1-14,text,true,,3322,1233,50,50,https://the-internet.herokuapp.com/secure,314,0,0
+1763437979453,668,/authenticate-104,200,OK,Thread Group 1-28,text,true,,4788,2441,50,50,https://the-internet.herokuapp.com/secure,354,0,0
+1763437979471,650,/authenticate-104,200,OK,Thread Group 1-16,text,true,,4788,2441,50,50,https://the-internet.herokuapp.com/secure,338,0,0
+1763437979453,354,/authenticate-104-0,303,See Other,Thread Group 1-28,text,true,,1466,1208,50,50,https://the-internet.herokuapp.com/authenticate,354,0,0
+1763437979471,338,/authenticate-104-0,303,See Other,Thread Group 1-16,text,true,,1466,1208,50,50,https://the-internet.herokuapp.com/authenticate,338,0,0
+1763437979808,313,/authenticate-104-1,200,OK,Thread Group 1-28,text,true,,3322,1233,50,50,https://the-internet.herokuapp.com/secure,313,0,0
+1763437979809,312,/authenticate-104-1,200,OK,Thread Group 1-16,text,true,,3322,1233,50,50,https://the-internet.herokuapp.com/secure,312,0,0
+1763437979454,667,/authenticate-104,200,OK,Thread Group 1-37,text,true,,4788,2441,50,50,https://the-internet.herokuapp.com/secure,351,0,0
+1763437979454,351,/authenticate-104-0,303,See Other,Thread Group 1-37,text,true,,1466,1208,50,50,https://the-internet.herokuapp.com/authenticate,351,0,0
+1763437979806,315,/authenticate-104-1,200,OK,Thread Group 1-37,text,true,,3322,1233,50,50,https://the-internet.herokuapp.com/secure,315,0,0
+1763437979489,641,/authenticate-104,200,OK,Thread Group 1-42,text,true,,4788,2441,50,50,https://the-internet.herokuapp.com/secure,323,0,0
+1763437979489,323,/authenticate-104-0,303,See Other,Thread Group 1-42,text,true,,1466,1208,50,50,https://the-internet.herokuapp.com/authenticate,323,0,0
+1763437979813,317,/authenticate-104-1,200,OK,Thread Group 1-42,text,true,,3322,1233,50,50,https://the-internet.herokuapp.com/secure,317,0,0
+1763437979473,658,/authenticate-104,200,OK,Thread Group 1-36,text,true,,4788,2441,50,50,https://the-internet.herokuapp.com/secure,340,0,0
+1763437979473,340,/authenticate-104-0,303,See Other,Thread Group 1-36,text,true,,1466,1208,50,50,https://the-internet.herokuapp.com/authenticate,340,0,0
+1763437979813,318,/authenticate-104-1,200,OK,Thread Group 1-36,text,true,,3322,1233,50,50,https://the-internet.herokuapp.com/secure,318,0,0
+1763437979454,679,/authenticate-104,200,OK,Thread Group 1-1,text,true,,4788,2441,50,50,https://the-internet.herokuapp.com/secure,357,0,0
+1763437979454,679,/authenticate-104,200,OK,Thread Group 1-32,text,true,,4788,2441,50,50,https://the-internet.herokuapp.com/secure,357,0,0
+1763437979454,357,/authenticate-104-0,303,See Other,Thread Group 1-1,text,true,,1466,1208,50,50,https://the-internet.herokuapp.com/authenticate,357,0,0
+1763437979454,357,/authenticate-104-0,303,See Other,Thread Group 1-32,text,true,,1466,1208,50,50,https://the-internet.herokuapp.com/authenticate,357,0,0
+1763437979811,322,/authenticate-104-1,200,OK,Thread Group 1-1,text,true,,3322,1233,50,50,https://the-internet.herokuapp.com/secure,322,0,0
+1763437979811,322,/authenticate-104-1,200,OK,Thread Group 1-32,text,true,,3322,1233,50,50,https://the-internet.herokuapp.com/secure,322,0,0
+1763437979489,649,/authenticate-104,200,OK,Thread Group 1-49,text,true,,4788,2441,50,50,https://the-internet.herokuapp.com/secure,324,0,0
+1763437979453,685,/authenticate-104,200,OK,Thread Group 1-15,text,true,,4788,2441,50,50,https://the-internet.herokuapp.com/secure,359,0,0
+1763437979489,324,/authenticate-104-0,303,See Other,Thread Group 1-49,text,true,,1466,1208,50,50,https://the-internet.herokuapp.com/authenticate,324,0,0
+1763437979453,359,/authenticate-104-0,303,See Other,Thread Group 1-15,text,true,,1466,1208,50,50,https://the-internet.herokuapp.com/authenticate,359,0,0
+1763437979814,324,/authenticate-104-1,200,OK,Thread Group 1-49,text,true,,3322,1233,50,50,https://the-internet.herokuapp.com/secure,324,0,0
+1763437979812,326,/authenticate-104-1,200,OK,Thread Group 1-15,text,true,,3322,1233,50,50,https://the-internet.herokuapp.com/secure,326,0,0
+1763437979474,666,/authenticate-104,200,OK,Thread Group 1-18,text,true,,4788,2441,50,50,https://the-internet.herokuapp.com/secure,339,0,0
+1763437979474,339,/authenticate-104-0,303,See Other,Thread Group 1-18,text,true,,1466,1208,50,50,https://the-internet.herokuapp.com/authenticate,339,0,0
+1763437979814,326,/authenticate-104-1,200,OK,Thread Group 1-18,text,true,,3322,1233,50,50,https://the-internet.herokuapp.com/secure,326,0,0
+1763437979474,669,/authenticate-104,200,OK,Thread Group 1-34,text,true,,4788,2441,50,50,https://the-internet.herokuapp.com/secure,340,0,0
+1763437979474,340,/authenticate-104-0,303,See Other,Thread Group 1-34,text,true,,1466,1208,50,50,https://the-internet.herokuapp.com/authenticate,340,0,0
+1763437979815,328,/authenticate-104-1,200,OK,Thread Group 1-34,text,true,,3322,1233,50,50,https://the-internet.herokuapp.com/secure,328,0,0
+1763437979491,658,/authenticate-104,200,OK,Thread Group 1-20,text,true,,4788,2441,50,50,https://the-internet.herokuapp.com/secure,325,0,0
+1763437979491,658,/authenticate-104,200,OK,Thread Group 1-22,text,true,,4788,2441,50,50,https://the-internet.herokuapp.com/secure,333,0,0
+1763437979491,325,/authenticate-104-0,303,See Other,Thread Group 1-20,text,true,,1466,1208,50,50,https://the-internet.herokuapp.com/authenticate,325,0,0
+1763437979491,333,/authenticate-104-0,303,See Other,Thread Group 1-22,text,true,,1466,1208,50,50,https://the-internet.herokuapp.com/authenticate,333,0,0
+1763437979816,333,/authenticate-104-1,200,OK,Thread Group 1-20,text,true,,3322,1233,50,50,https://the-internet.herokuapp.com/secure,333,0,0
+1763437979824,325,/authenticate-104-1,200,OK,Thread Group 1-22,text,true,,3322,1233,50,50,https://the-internet.herokuapp.com/secure,325,0,0
+1763437979491,659,/authenticate-104,200,OK,Thread Group 1-26,text,true,,4788,2441,50,50,https://the-internet.herokuapp.com/secure,333,0,0
+1763437979491,333,/authenticate-104-0,303,See Other,Thread Group 1-26,text,true,,1466,1208,50,50,https://the-internet.herokuapp.com/authenticate,333,0,0
+1763437979824,326,/authenticate-104-1,200,OK,Thread Group 1-26,text,true,,3322,1233,50,50,https://the-internet.herokuapp.com/secure,326,0,0
+1763437979498,653,/authenticate-104,200,OK,Thread Group 1-41,text,true,,4788,2441,50,50,https://the-internet.herokuapp.com/secure,336,0,0
+1763437979498,336,/authenticate-104-0,303,See Other,Thread Group 1-41,text,true,,1466,1208,50,50,https://the-internet.herokuapp.com/authenticate,336,0,0
+1763437979834,317,/authenticate-104-1,200,OK,Thread Group 1-41,text,true,,3322,1233,50,50,https://the-internet.herokuapp.com/secure,317,0,0
+1763437979503,651,/authenticate-104,200,OK,Thread Group 1-24,text,true,,4788,2441,50,50,https://the-internet.herokuapp.com/secure,331,0,0
+1763437979503,331,/authenticate-104-0,303,See Other,Thread Group 1-24,text,true,,1466,1208,50,50,https://the-internet.herokuapp.com/authenticate,331,0,0
+1763437979834,320,/authenticate-104-1,200,OK,Thread Group 1-24,text,true,,3322,1233,50,50,https://the-internet.herokuapp.com/secure,320,0,0
+1763437979493,662,/authenticate-104,200,OK,Thread Group 1-29,text,true,,4788,2441,50,50,https://the-internet.herokuapp.com/secure,337,0,0
+1763437979493,337,/authenticate-104-0,303,See Other,Thread Group 1-29,text,true,,1466,1208,50,50,https://the-internet.herokuapp.com/authenticate,337,0,0
+1763437979831,324,/authenticate-104-1,200,OK,Thread Group 1-29,text,true,,3322,1233,50,50,https://the-internet.herokuapp.com/secure,324,0,0
+1763437979499,655,/authenticate-104,200,OK,Thread Group 1-33,text,true,,4788,2441,50,50,https://the-internet.herokuapp.com/secure,336,0,0
+1763437979499,336,/authenticate-104-0,303,See Other,Thread Group 1-33,text,true,,1466,1208,50,50,https://the-internet.herokuapp.com/authenticate,336,0,0
+1763437979835,319,/authenticate-104-1,200,OK,Thread Group 1-33,text,true,,3322,1233,50,50,https://the-internet.herokuapp.com/secure,319,0,0
+1763437979502,654,/authenticate-104,200,OK,Thread Group 1-7,text,true,,4788,2441,50,50,https://the-internet.herokuapp.com/secure,334,0,0
+1763437979502,334,/authenticate-104-0,303,See Other,Thread Group 1-7,text,true,,1466,1208,50,50,https://the-internet.herokuapp.com/authenticate,334,0,0
+1763437979836,320,/authenticate-104-1,200,OK,Thread Group 1-7,text,true,,3322,1233,50,50,https://the-internet.herokuapp.com/secure,320,0,0
+1763437979493,664,/authenticate-104,200,OK,Thread Group 1-2,text,true,,4788,2441,50,50,https://the-internet.herokuapp.com/secure,339,0,0
+1763437979496,661,/authenticate-104,200,OK,Thread Group 1-46,text,true,,4788,2441,50,50,https://the-internet.herokuapp.com/secure,336,0,0
+1763437979496,336,/authenticate-104-0,303,See Other,Thread Group 1-46,text,true,,1466,1208,50,50,https://the-internet.herokuapp.com/authenticate,336,0,0
+1763437979832,325,/authenticate-104-1,200,OK,Thread Group 1-46,text,true,,3322,1233,50,50,https://the-internet.herokuapp.com/secure,325,0,0
+1763437979493,339,/authenticate-104-0,303,See Other,Thread Group 1-2,text,true,,1466,1208,50,50,https://the-internet.herokuapp.com/authenticate,339,0,0
+1763437979832,325,/authenticate-104-1,200,OK,Thread Group 1-2,text,true,,3322,1233,50,50,https://the-internet.herokuapp.com/secure,325,0,0
+1763437979493,666,/authenticate-104,200,OK,Thread Group 1-8,text,true,,4788,2441,50,50,https://the-internet.herokuapp.com/secure,337,0,0
+1763437979497,662,/authenticate-104,200,OK,Thread Group 1-30,text,true,,4788,2441,50,50,https://the-internet.herokuapp.com/secure,340,0,0
+1763437979493,337,/authenticate-104-0,303,See Other,Thread Group 1-8,text,true,,1466,1208,50,50,https://the-internet.herokuapp.com/authenticate,337,0,0
+1763437979497,340,/authenticate-104-0,303,See Other,Thread Group 1-30,text,true,,1466,1208,50,50,https://the-internet.herokuapp.com/authenticate,340,0,0
+1763437979830,329,/authenticate-104-1,200,OK,Thread Group 1-8,text,true,,3322,1233,50,50,https://the-internet.herokuapp.com/secure,329,0,0
+1763437979838,321,/authenticate-104-1,200,OK,Thread Group 1-30,text,true,,3322,1233,50,50,https://the-internet.herokuapp.com/secure,321,0,0
+1763437979496,665,/authenticate-104,200,OK,Thread Group 1-10,text,true,,4788,2441,50,50,https://the-internet.herokuapp.com/secure,337,0,0
+1763437979496,337,/authenticate-104-0,303,See Other,Thread Group 1-10,text,true,,1466,1208,50,50,https://the-internet.herokuapp.com/authenticate,337,0,0
+1763437979833,328,/authenticate-104-1,200,OK,Thread Group 1-10,text,true,,3322,1233,50,50,https://the-internet.herokuapp.com/secure,328,0,0
+1763437979500,663,/authenticate-104,200,OK,Thread Group 1-3,text,true,,4788,2441,50,50,https://the-internet.herokuapp.com/secure,337,0,0
+1763437979500,337,/authenticate-104-0,303,See Other,Thread Group 1-3,text,true,,1466,1208,50,50,https://the-internet.herokuapp.com/authenticate,337,0,0
+1763437979837,326,/authenticate-104-1,200,OK,Thread Group 1-3,text,true,,3322,1233,50,50,https://the-internet.herokuapp.com/secure,325,0,0
+1763437979503,668,/authenticate-104,200,OK,Thread Group 1-11,text,true,,4788,2441,50,50,https://the-internet.herokuapp.com/secure,338,0,0
+1763437979507,664,/authenticate-104,200,OK,Thread Group 1-38,text,true,,4788,2441,50,50,https://the-internet.herokuapp.com/secure,341,0,0
+1763437979503,338,/authenticate-104-0,303,See Other,Thread Group 1-11,text,true,,1466,1208,50,50,https://the-internet.herokuapp.com/authenticate,338,0,0
+1763437979507,341,/authenticate-104-0,303,See Other,Thread Group 1-38,text,true,,1466,1208,50,50,https://the-internet.herokuapp.com/authenticate,341,0,0
+1763437979841,330,/authenticate-104-1,200,OK,Thread Group 1-11,text,true,,3322,1233,50,50,https://the-internet.herokuapp.com/secure,330,0,0
+1763437979849,322,/authenticate-104-1,200,OK,Thread Group 1-38,text,true,,3322,1233,50,50,https://the-internet.herokuapp.com/secure,322,0,0
+1763437979525,657,/authenticate-104,200,OK,Thread Group 1-21,text,true,,4788,2441,50,50,https://the-internet.herokuapp.com/secure,327,0,0
+1763437979525,657,/authenticate-104,200,OK,Thread Group 1-47,text,true,,4788,2441,50,50,https://the-internet.herokuapp.com/secure,324,0,0
+1763437979525,327,/authenticate-104-0,303,See Other,Thread Group 1-21,text,true,,1466,1208,50,50,https://the-internet.herokuapp.com/authenticate,327,0,0
+1763437979525,324,/authenticate-104-0,303,See Other,Thread Group 1-47,text,true,,1466,1208,50,50,https://the-internet.herokuapp.com/authenticate,324,0,0
+1763437979852,330,/authenticate-104-1,200,OK,Thread Group 1-21,text,true,,3322,1233,50,50,https://the-internet.herokuapp.com/secure,330,0,0
+1763437979850,332,/authenticate-104-1,200,OK,Thread Group 1-47,text,true,,3322,1233,50,50,https://the-internet.herokuapp.com/secure,332,0,0
+1763437979507,676,/authenticate-104,200,OK,Thread Group 1-19,text,true,,4788,2441,50,50,https://the-internet.herokuapp.com/secure,344,0,0
+1763437979507,344,/authenticate-104-0,303,See Other,Thread Group 1-19,text,true,,1466,1208,50,50,https://the-internet.herokuapp.com/authenticate,344,0,0
+1763437979851,332,/authenticate-104-1,200,OK,Thread Group 1-19,text,true,,3322,1233,50,50,https://the-internet.herokuapp.com/secure,332,0,0
+1763437979505,678,/authenticate-104,200,OK,Thread Group 1-27,text,true,,4788,2441,50,50,https://the-internet.herokuapp.com/secure,346,0,0
+1763437979505,346,/authenticate-104-0,303,See Other,Thread Group 1-27,text,true,,1466,1208,50,50,https://the-internet.herokuapp.com/authenticate,346,0,0
+1763437979851,332,/authenticate-104-1,200,OK,Thread Group 1-27,text,true,,3322,1233,50,50,https://the-internet.herokuapp.com/secure,331,0,0
+1763437979508,674,/authenticate-104,200,OK,Thread Group 1-9,text,true,,4788,2441,50,50,https://the-internet.herokuapp.com/secure,341,0,0
+1763437979508,341,/authenticate-104-0,303,See Other,Thread Group 1-9,text,true,,1466,1208,50,50,https://the-internet.herokuapp.com/authenticate,341,0,0
+1763437979849,333,/authenticate-104-1,200,OK,Thread Group 1-9,text,true,,3322,1233,50,50,https://the-internet.herokuapp.com/secure,333,0,0
+1763437980032,561,/logout-109,200,OK,Thread Group 1-39,text,true,,5300,2192,50,50,https://the-internet.herokuapp.com/login,275,0,0
+1763437980032,275,/logout-109-0,302,Found,Thread Group 1-39,text,true,,1433,1080,50,50,https://the-internet.herokuapp.com/logout,275,0,0
+1763437980308,285,/logout-109-1,200,OK,Thread Group 1-39,text,true,,3867,1112,50,50,https://the-internet.herokuapp.com/login,285,0,0
+1763437980034,576,/logout-109,200,OK,Thread Group 1-5,text,true,,5300,2192,49,49,https://the-internet.herokuapp.com/login,294,0,0
+1763437980034,294,/logout-109-0,302,Found,Thread Group 1-5,text,true,,1433,1080,49,49,https://the-internet.herokuapp.com/logout,294,0,0
+1763437980328,282,/logout-109-1,200,OK,Thread Group 1-5,text,true,,3867,1112,49,49,https://the-internet.herokuapp.com/login,282,0,0
+1763437980041,573,/logout-109,200,OK,Thread Group 1-4,text,true,,5300,2192,48,48,https://the-internet.herokuapp.com/login,282,0,0
+1763437980054,560,/logout-109,200,OK,Thread Group 1-35,text,true,,5300,2192,48,48,https://the-internet.herokuapp.com/login,276,0,0
+1763437980041,282,/logout-109-0,302,Found,Thread Group 1-4,text,true,,1433,1080,48,48,https://the-internet.herokuapp.com/logout,282,0,0
+1763437980054,276,/logout-109-0,302,Found,Thread Group 1-35,text,true,,1433,1080,48,48,https://the-internet.herokuapp.com/logout,276,0,0
+1763437980324,290,/logout-109-1,200,OK,Thread Group 1-4,text,true,,3867,1112,48,48,https://the-internet.herokuapp.com/login,290,0,0
+1763437980331,283,/logout-109-1,200,OK,Thread Group 1-35,text,true,,3867,1112,48,48,https://the-internet.herokuapp.com/login,283,0,0
+1763437980081,581,/logout-109,200,OK,Thread Group 1-50,text,true,,5300,2192,46,46,https://the-internet.herokuapp.com/login,294,0,0
+1763437980081,294,/logout-109-0,302,Found,Thread Group 1-50,text,true,,1433,1080,46,46,https://the-internet.herokuapp.com/logout,294,0,0
+1763437980376,286,/logout-109-1,200,OK,Thread Group 1-50,text,true,,3867,1112,46,46,https://the-internet.herokuapp.com/login,286,0,0
+1763437980087,580,/logout-109,200,OK,Thread Group 1-44,text,true,,5300,2192,45,45,https://the-internet.herokuapp.com/login,296,0,0
+1763437980087,296,/logout-109-0,302,Found,Thread Group 1-44,text,true,,1433,1080,45,45,https://the-internet.herokuapp.com/logout,296,0,0
+1763437980383,284,/logout-109-1,200,OK,Thread Group 1-44,text,true,,3867,1112,45,45,https://the-internet.herokuapp.com/login,284,0,0
+1763437980086,586,/logout-109,200,OK,Thread Group 1-40,text,true,,5300,2192,44,44,https://the-internet.herokuapp.com/login,297,0,0
+1763437980086,297,/logout-109-0,302,Found,Thread Group 1-40,text,true,,1433,1080,44,44,https://the-internet.herokuapp.com/logout,297,0,0
+1763437980383,289,/logout-109-1,200,OK,Thread Group 1-40,text,true,,3867,1112,44,44,https://the-internet.herokuapp.com/login,289,0,0
+1763437980081,597,/logout-109,200,OK,Thread Group 1-23,text,true,,5300,2192,43,43,https://the-internet.herokuapp.com/login,307,0,0
+1763437980081,307,/logout-109-0,302,Found,Thread Group 1-23,text,true,,1433,1080,43,43,https://the-internet.herokuapp.com/logout,307,0,0
+1763437980388,290,/logout-109-1,200,OK,Thread Group 1-23,text,true,,3867,1112,43,43,https://the-internet.herokuapp.com/login,290,0,0
+1763437980095,587,/logout-109,200,OK,Thread Group 1-13,text,true,,5300,2192,42,42,https://the-internet.herokuapp.com/login,311,0,0
+1763437980095,311,/logout-109-0,302,Found,Thread Group 1-13,text,true,,1433,1080,42,42,https://the-internet.herokuapp.com/logout,311,0,0
+1763437980407,275,/logout-109-1,200,OK,Thread Group 1-13,text,true,,3867,1112,42,42,https://the-internet.herokuapp.com/login,275,0,0
+1763437980095,598,/logout-109,200,OK,Thread Group 1-45,text,true,,5300,2192,41,41,https://the-internet.herokuapp.com/login,314,0,0
+1763437980095,314,/logout-109-0,302,Found,Thread Group 1-45,text,true,,1433,1080,41,41,https://the-internet.herokuapp.com/logout,314,0,0
+1763437980410,283,/logout-109-1,200,OK,Thread Group 1-45,text,true,,3867,1112,41,41,https://the-internet.herokuapp.com/login,283,0,0
+1763437980093,602,/logout-109,200,OK,Thread Group 1-25,text,true,,5300,2192,40,40,https://the-internet.herokuapp.com/login,313,0,0
+1763437980093,313,/logout-109-0,302,Found,Thread Group 1-25,text,true,,1433,1080,40,40,https://the-internet.herokuapp.com/logout,313,0,0
+1763437980407,288,/logout-109-1,200,OK,Thread Group 1-25,text,true,,3867,1112,40,40,https://the-internet.herokuapp.com/login,288,0,0
+1763437980099,607,/logout-109,200,OK,Thread Group 1-6,text,true,,5300,2192,39,39,https://the-internet.herokuapp.com/login,310,0,0
+1763437980099,310,/logout-109-0,302,Found,Thread Group 1-6,text,true,,1433,1080,39,39,https://the-internet.herokuapp.com/logout,310,0,0
+1763437980410,296,/logout-109-1,200,OK,Thread Group 1-6,text,true,,3867,1112,39,39,https://the-internet.herokuapp.com/login,296,0,0
+1763437980120,593,/logout-109,200,OK,Thread Group 1-14,text,true,,5300,2192,38,38,https://the-internet.herokuapp.com/login,304,0,0
+1763437980099,614,/logout-109,200,OK,Thread Group 1-43,text,true,,5300,2192,38,38,https://the-internet.herokuapp.com/login,312,0,0
+1763437980120,304,/logout-109-0,302,Found,Thread Group 1-14,text,true,,1433,1080,38,38,https://the-internet.herokuapp.com/logout,304,0,0
+1763437980424,289,/logout-109-1,200,OK,Thread Group 1-14,text,true,,3867,1112,38,38,https://the-internet.herokuapp.com/login,289,0,0
+1763437980099,312,/logout-109-0,302,Found,Thread Group 1-43,text,true,,1433,1080,38,38,https://the-internet.herokuapp.com/logout,312,0,0
+1763437980411,302,/logout-109-1,200,OK,Thread Group 1-43,text,true,,3867,1112,38,38,https://the-internet.herokuapp.com/login,302,0,0
+1763437980117,604,/logout-109,200,OK,Thread Group 1-12,text,true,,5300,2192,36,36,https://the-internet.herokuapp.com/login,307,0,0
+1763437980117,307,/logout-109-0,302,Found,Thread Group 1-12,text,true,,1433,1080,36,36,https://the-internet.herokuapp.com/logout,307,0,0
+1763437980424,297,/logout-109-1,200,OK,Thread Group 1-12,text,true,,3867,1112,36,36,https://the-internet.herokuapp.com/login,297,0,0
+1763437980122,601,/logout-109,200,OK,Thread Group 1-16,text,true,,5300,2192,35,35,https://the-internet.herokuapp.com/login,303,0,0
+1763437980122,303,/logout-109-0,302,Found,Thread Group 1-16,text,true,,1433,1080,35,35,https://the-internet.herokuapp.com/logout,303,0,0
+1763437980426,297,/logout-109-1,200,OK,Thread Group 1-16,text,true,,3867,1112,35,35,https://the-internet.herokuapp.com/login,297,0,0
+1763437980132,593,/logout-109,200,OK,Thread Group 1-36,text,true,,5300,2192,34,34,https://the-internet.herokuapp.com/login,294,0,0
+1763437980132,294,/logout-109-0,302,Found,Thread Group 1-36,text,true,,1433,1080,34,34,https://the-internet.herokuapp.com/logout,294,0,0
+1763437980426,299,/logout-109-1,200,OK,Thread Group 1-36,text,true,,3867,1112,34,34,https://the-internet.herokuapp.com/login,299,0,0
+1763437980117,624,/logout-109,200,OK,Thread Group 1-31,text,true,,5300,2192,33,33,https://the-internet.herokuapp.com/login,307,0,0
+1763437980117,307,/logout-109-0,302,Found,Thread Group 1-31,text,true,,1433,1080,33,33,https://the-internet.herokuapp.com/logout,307,0,0
+1763437980426,315,/logout-109-1,200,OK,Thread Group 1-31,text,true,,3867,1112,33,33,https://the-internet.herokuapp.com/login,315,0,0
+1763437980122,620,/logout-109,200,OK,Thread Group 1-28,text,true,,5300,2192,32,32,https://the-internet.herokuapp.com/login,303,0,0
+1763437980117,625,/logout-109,200,OK,Thread Group 1-17,text,true,,5300,2192,32,32,https://the-internet.herokuapp.com/login,308,0,0
+1763437980122,303,/logout-109-0,302,Found,Thread Group 1-28,text,true,,1433,1080,32,32,https://the-internet.herokuapp.com/logout,303,0,0
+1763437980117,308,/logout-109-0,302,Found,Thread Group 1-17,text,true,,1433,1080,32,32,https://the-internet.herokuapp.com/logout,308,0,0
+1763437980427,315,/logout-109-1,200,OK,Thread Group 1-28,text,true,,3867,1112,32,32,https://the-internet.herokuapp.com/login,315,0,0
+1763437980427,315,/logout-109-1,200,OK,Thread Group 1-17,text,true,,3867,1112,32,32,https://the-internet.herokuapp.com/login,315,0,0
+1763437980118,626,/logout-109,200,OK,Thread Group 1-48,text,true,,5300,2192,30,30,https://the-internet.herokuapp.com/login,307,0,0
+1763437980118,307,/logout-109-0,302,Found,Thread Group 1-48,text,true,,1433,1080,30,30,https://the-internet.herokuapp.com/logout,307,0,0
+1763437980427,317,/logout-109-1,200,OK,Thread Group 1-48,text,true,,3867,1112,30,30,https://the-internet.herokuapp.com/login,317,0,0
+1763437980139,607,/logout-109,200,OK,Thread Group 1-49,text,true,,5300,2192,30,30,https://the-internet.herokuapp.com/login,303,0,0
+1763437980139,303,/logout-109-0,302,Found,Thread Group 1-49,text,true,,1433,1080,30,30,https://the-internet.herokuapp.com/logout,303,0,0
+1763437980442,304,/logout-109-1,200,OK,Thread Group 1-49,text,true,,3867,1112,30,30,https://the-internet.herokuapp.com/login,304,0,0
+1763437980131,614,/logout-109,200,OK,Thread Group 1-42,text,true,,5300,2192,30,30,https://the-internet.herokuapp.com/login,309,0,0
+1763437980131,309,/logout-109-0,302,Found,Thread Group 1-42,text,true,,1433,1080,30,30,https://the-internet.herokuapp.com/logout,309,0,0
+1763437980134,612,/logout-109,200,OK,Thread Group 1-32,text,true,,5300,2192,29,29,https://the-internet.herokuapp.com/login,307,0,0
+1763437980440,305,/logout-109-1,200,OK,Thread Group 1-42,text,true,,3867,1112,30,30,https://the-internet.herokuapp.com/login,305,0,0
+1763437980134,307,/logout-109-0,302,Found,Thread Group 1-32,text,true,,1433,1080,29,29,https://the-internet.herokuapp.com/logout,307,0,0
+1763437980441,305,/logout-109-1,200,OK,Thread Group 1-32,text,true,,3867,1112,29,29,https://the-internet.herokuapp.com/login,305,0,0
+1763437980152,611,/logout-109,200,OK,Thread Group 1-41,text,true,,5300,2192,26,26,https://the-internet.herokuapp.com/login,300,0,0
+1763437980155,608,/logout-109,200,OK,Thread Group 1-24,text,true,,5300,2192,26,26,https://the-internet.herokuapp.com/login,297,0,0
+1763437980152,300,/logout-109-0,302,Found,Thread Group 1-41,text,true,,1433,1080,26,26,https://the-internet.herokuapp.com/logout,300,0,0
+1763437980155,297,/logout-109-0,302,Found,Thread Group 1-24,text,true,,1433,1080,26,26,https://the-internet.herokuapp.com/logout,297,0,0
+1763437980453,310,/logout-109-1,200,OK,Thread Group 1-41,text,true,,3867,1112,26,26,https://the-internet.herokuapp.com/login,310,0,0
+1763437980453,310,/logout-109-1,200,OK,Thread Group 1-24,text,true,,3867,1112,26,26,https://the-internet.herokuapp.com/login,310,0,0
+1763437980139,626,/logout-109,200,OK,Thread Group 1-15,text,true,,5300,2192,25,25,https://the-internet.herokuapp.com/login,304,0,0
+1763437980139,304,/logout-109-0,302,Found,Thread Group 1-15,text,true,,1433,1080,25,25,https://the-internet.herokuapp.com/logout,304,0,0
+1763437980443,322,/logout-109-1,200,OK,Thread Group 1-15,text,true,,3867,1112,25,25,https://the-internet.herokuapp.com/login,322,0,0
+1763437980143,623,/logout-109,200,OK,Thread Group 1-34,text,true,,5300,2192,24,24,https://the-internet.herokuapp.com/login,302,0,0
+1763437980143,302,/logout-109-0,302,Found,Thread Group 1-34,text,true,,1433,1080,24,24,https://the-internet.herokuapp.com/logout,302,0,0
+1763437980445,321,/logout-109-1,200,OK,Thread Group 1-34,text,true,,3867,1112,24,24,https://the-internet.herokuapp.com/login,321,0,0
+1763437980157,624,/logout-109,200,OK,Thread Group 1-7,text,true,,5300,2192,22,22,https://the-internet.herokuapp.com/login,297,0,0
+1763437980157,297,/logout-109-0,302,Found,Thread Group 1-7,text,true,,1433,1080,22,22,https://the-internet.herokuapp.com/logout,297,0,0
+1763437980454,327,/logout-109-1,200,OK,Thread Group 1-7,text,true,,3867,1112,22,22,https://the-internet.herokuapp.com/login,327,0,0
+1763437980134,648,/logout-109,200,OK,Thread Group 1-1,text,true,,5300,2192,22,22,https://the-internet.herokuapp.com/login,310,0,0
+1763437980134,310,/logout-109-0,302,Found,Thread Group 1-1,text,true,,1433,1080,22,22,https://the-internet.herokuapp.com/logout,310,0,0
+1763437980444,338,/logout-109-1,200,OK,Thread Group 1-1,text,true,,3867,1112,22,22,https://the-internet.herokuapp.com/login,338,0,0
+1763437980156,627,/logout-109,200,OK,Thread Group 1-33,text,true,,5300,2192,20,20,https://the-internet.herokuapp.com/login,299,0,0
+1763437980156,299,/logout-109-0,302,Found,Thread Group 1-33,text,true,,1433,1080,20,20,https://the-internet.herokuapp.com/logout,299,0,0
+1763437980455,328,/logout-109-1,200,OK,Thread Group 1-33,text,true,,3867,1112,20,20,https://the-internet.herokuapp.com/login,328,0,0
+1763437980122,662,/logout-109,200,OK,Thread Group 1-37,text,true,,5300,2192,20,20,https://the-internet.herokuapp.com/login,325,0,0
+1763437980122,325,/logout-109-0,302,Found,Thread Group 1-37,text,true,,1433,1080,20,20,https://the-internet.herokuapp.com/logout,325,0,0
+1763437980447,337,/logout-109-1,200,OK,Thread Group 1-37,text,true,,3867,1112,20,20,https://the-internet.herokuapp.com/login,337,0,0
+1763437980150,636,/logout-109,200,OK,Thread Group 1-20,text,true,,5300,2192,18,18,https://the-internet.herokuapp.com/login,302,0,0
+1763437980150,302,/logout-109-0,302,Found,Thread Group 1-20,text,true,,1433,1080,18,18,https://the-internet.herokuapp.com/logout,302,0,0
+1763437980454,332,/logout-109-1,200,OK,Thread Group 1-20,text,true,,3867,1112,18,18,https://the-internet.herokuapp.com/login,332,0,0
+1763437980172,615,/logout-109,200,OK,Thread Group 1-11,text,true,,5300,2192,18,18,https://the-internet.herokuapp.com/login,299,0,0
+1763437980172,299,/logout-109-0,302,Found,Thread Group 1-11,text,true,,1433,1080,18,18,https://the-internet.herokuapp.com/logout,299,0,0
+1763437980471,316,/logout-109-1,200,OK,Thread Group 1-11,text,true,,3867,1112,18,18,https://the-internet.herokuapp.com/login,316,0,0
+1763437980151,637,/logout-109,200,OK,Thread Group 1-26,text,true,,5300,2192,16,16,https://the-internet.herokuapp.com/login,303,0,0
+1763437980151,303,/logout-109-0,302,Found,Thread Group 1-26,text,true,,1433,1080,16,16,https://the-internet.herokuapp.com/logout,303,0,0
+1763437980454,334,/logout-109-1,200,OK,Thread Group 1-26,text,true,,3867,1112,16,16,https://the-internet.herokuapp.com/login,334,0,0
+1763437980141,649,/logout-109,200,OK,Thread Group 1-18,text,true,,5300,2192,15,15,https://the-internet.herokuapp.com/login,314,0,0
+1763437980141,314,/logout-109-0,302,Found,Thread Group 1-18,text,true,,1433,1080,15,15,https://the-internet.herokuapp.com/logout,314,0,0
+1763437980455,335,/logout-109-1,200,OK,Thread Group 1-18,text,true,,3867,1112,15,15,https://the-internet.herokuapp.com/login,335,0,0
+1763437980183,609,/logout-109,200,OK,Thread Group 1-47,text,true,,5300,2192,14,14,https://the-internet.herokuapp.com/login,289,0,0
+1763437980183,289,/logout-109-0,302,Found,Thread Group 1-47,text,true,,1433,1080,14,14,https://the-internet.herokuapp.com/logout,289,0,0
+1763437980472,320,/logout-109-1,200,OK,Thread Group 1-47,text,true,,3867,1112,14,14,https://the-internet.herokuapp.com/login,320,0,0
+1763437980151,641,/logout-109,200,OK,Thread Group 1-22,text,true,,5300,2192,14,14,https://the-internet.herokuapp.com/login,303,0,0
+1763437980151,303,/logout-109-0,302,Found,Thread Group 1-22,text,true,,1433,1080,14,14,https://the-internet.herokuapp.com/logout,303,0,0
+1763437980454,338,/logout-109-1,200,OK,Thread Group 1-22,text,true,,3867,1112,14,14,https://the-internet.herokuapp.com/login,338,0,0
+1763437980172,623,/logout-109,200,OK,Thread Group 1-38,text,true,,5300,2192,12,12,https://the-internet.herokuapp.com/login,300,0,0
+1763437980172,300,/logout-109-0,302,Found,Thread Group 1-38,text,true,,1433,1080,12,12,https://the-internet.herokuapp.com/logout,300,0,0
+1763437980472,323,/logout-109-1,200,OK,Thread Group 1-38,text,true,,3867,1112,12,12,https://the-internet.herokuapp.com/login,323,0,0
+1763437980164,631,/logout-109,200,OK,Thread Group 1-3,text,true,,5300,2192,12,12,https://the-internet.herokuapp.com/login,307,0,0
+1763437980164,307,/logout-109-0,302,Found,Thread Group 1-3,text,true,,1433,1080,12,12,https://the-internet.herokuapp.com/logout,307,0,0
+1763437980473,322,/logout-109-1,200,OK,Thread Group 1-3,text,true,,3867,1112,12,12,https://the-internet.herokuapp.com/login,322,0,0
+1763437980160,636,/logout-109,200,OK,Thread Group 1-8,text,true,,5300,2192,12,12,https://the-internet.herokuapp.com/login,312,0,0
+1763437980160,312,/logout-109-0,302,Found,Thread Group 1-8,text,true,,1433,1080,12,12,https://the-internet.herokuapp.com/logout,312,0,0
+1763437980472,324,/logout-109-1,200,OK,Thread Group 1-8,text,true,,3867,1112,12,12,https://the-internet.herokuapp.com/login,324,0,0
+1763437980155,645,/logout-109,200,OK,Thread Group 1-29,text,true,,5300,2192,9,9,https://the-internet.herokuapp.com/login,316,0,0
+1763437980155,316,/logout-109-0,302,Found,Thread Group 1-29,text,true,,1433,1080,9,9,https://the-internet.herokuapp.com/logout,316,0,0
+1763437980471,329,/logout-109-1,200,OK,Thread Group 1-29,text,true,,3867,1112,9,9,https://the-internet.herokuapp.com/login,329,0,0
+1763437980158,650,/logout-109,200,OK,Thread Group 1-46,text,true,,5300,2192,8,8,https://the-internet.herokuapp.com/login,314,0,0
+1763437980160,648,/logout-109,200,OK,Thread Group 1-30,text,true,,5300,2192,8,8,https://the-internet.herokuapp.com/login,311,0,0
+1763437980158,314,/logout-109-0,302,Found,Thread Group 1-46,text,true,,1433,1080,8,8,https://the-internet.herokuapp.com/logout,314,0,0
+1763437980160,311,/logout-109-0,302,Found,Thread Group 1-30,text,true,,1433,1080,8,8,https://the-internet.herokuapp.com/logout,311,0,0
+1763437980472,336,/logout-109-1,200,OK,Thread Group 1-46,text,true,,3867,1112,8,8,https://the-internet.herokuapp.com/login,336,0,0
+1763437980473,335,/logout-109-1,200,OK,Thread Group 1-30,text,true,,3867,1112,8,8,https://the-internet.herokuapp.com/login,335,0,0
+1763437980183,627,/logout-109,200,OK,Thread Group 1-21,text,true,,5300,2192,6,6,https://the-internet.herokuapp.com/login,303,0,0
+1763437980158,652,/logout-109,200,OK,Thread Group 1-2,text,true,,5300,2192,6,6,https://the-internet.herokuapp.com/login,313,0,0
+1763437980183,303,/logout-109-0,302,Found,Thread Group 1-21,text,true,,1433,1080,6,6,https://the-internet.herokuapp.com/logout,303,0,0
+1763437980158,313,/logout-109-0,302,Found,Thread Group 1-2,text,true,,1433,1080,6,6,https://the-internet.herokuapp.com/logout,313,0,0
+1763437980471,339,/logout-109-1,200,OK,Thread Group 1-2,text,true,,3867,1112,6,6,https://the-internet.herokuapp.com/login,339,0,0
+1763437980486,324,/logout-109-1,200,OK,Thread Group 1-21,text,true,,3867,1112,6,6,https://the-internet.herokuapp.com/login,324,0,0
+1763437980162,654,/logout-109,200,OK,Thread Group 1-10,text,true,,5300,2192,4,4,https://the-internet.herokuapp.com/login,311,0,0
+1763437980185,631,/logout-109,200,OK,Thread Group 1-9,text,true,,5300,2192,4,4,https://the-internet.herokuapp.com/login,301,0,0
+1763437980162,312,/logout-109-0,302,Found,Thread Group 1-10,text,true,,1433,1080,4,4,https://the-internet.herokuapp.com/logout,311,0,0
+1763437980474,342,/logout-109-1,200,OK,Thread Group 1-10,text,true,,3867,1112,4,4,https://the-internet.herokuapp.com/login,342,0,0
+1763437980185,301,/logout-109-0,302,Found,Thread Group 1-9,text,true,,1433,1080,4,4,https://the-internet.herokuapp.com/logout,301,0,0
+1763437980487,329,/logout-109-1,200,OK,Thread Group 1-9,text,true,,3867,1112,4,4,https://the-internet.herokuapp.com/login,329,0,0
+1763437980184,641,/logout-109,200,OK,Thread Group 1-19,text,true,,5300,2192,2,2,https://the-internet.herokuapp.com/login,302,0,0
+1763437980184,641,/logout-109,200,OK,Thread Group 1-27,text,true,,5300,2192,2,2,https://the-internet.herokuapp.com/login,303,0,0
+1763437980184,302,/logout-109-0,302,Found,Thread Group 1-19,text,true,,1433,1080,2,2,https://the-internet.herokuapp.com/logout,302,0,0
+1763437980184,303,/logout-109-0,302,Found,Thread Group 1-27,text,true,,1433,1080,2,2,https://the-internet.herokuapp.com/logout,303,0,0
+1763437980487,338,/logout-109-1,200,OK,Thread Group 1-19,text,true,,3867,1112,2,2,https://the-internet.herokuapp.com/login,338,0,0
+1763437980487,338,/logout-109-1,200,OK,Thread Group 1-27,text,true,,3867,1112,2,2,https://the-internet.herokuapp.com/login,338,0,0
