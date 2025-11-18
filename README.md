@@ -716,7 +716,7 @@ They support logic that depends on request and response information.
 
 ---
 
-## 12. Handling Dynamic Responses
+## Section 12 - Handling Dynamic Responses
 
 Dynamic values often appear in real applications, especially in flows that involve authentication, session handling, or server-generated tokens. These values change with every request, so they cannot be hardcoded. JMeter needs a way to extract these values from earlier responses and reuse them in later requests. This process is known as correlation.
 
@@ -756,3 +756,184 @@ This ensures the correct session value is passed each time, allowing login to su
 ### Summary
 
 Correlation is essential in performance testing for any application that generates dynamic data. Proper extraction and variable handling ensure that the test flow behaves like a real user session and avoids invalid session errors.
+
+---
+
+## Section 13 - JMeter Validations in Non-GUI Mode
+
+Running tests in non-GUI mode is the standard approach for stable and efficient performance execution. It reduces memory usage and avoids the overhead of UI rendering during high load.
+
+### Commands to Run Tests in Non-GUI Mode
+
+**Basic execution**
+```
+jmeter -n -t TestPlan.jmx
+```
+
+**Run and store results**
+```
+jmeter -n -t TestPlan.jmx -l results.jtl
+```
+
+**Run with custom properties**
+```
+jmeter -n -t TestPlan.jmx -l results.jtl -q custom.properties
+```
+
+**Run with user-defined properties**
+```
+jmeter -n -t TestPlan.jmx -l results.jtl -Jthreads=200 -Jrampup=30
+```
+
+These variations allow flexible control in CI pipelines or scripted executions.
+
+### Monitoring Results in Non-GUI Execution
+
+Since no UI elements run in this mode, results must be tracked through:
+
+**1. JTL Files**  
+JTL output contains sampler results, response codes, errors, latency, and throughput. These files can be opened later in the GUI using listeners like Aggregate Report or Summary Report.
+
+**2. Console Summary Output**  
+During execution, JMeter prints periodic summaries such as:
+```
+Summary +  40 in 00:00:10 =  4.0/s Avg: 250 Min: 210 Max: 410 Err: 0
+```
+
+This helps confirm load progression and detect errors early.
+
+**3. Backend Listener Dashboards**  
+When linked with InfluxDB and Grafana, live dashboards can show active metrics during non-GUI execution.
+
+### Importance of BlazeMeter for Cloud Execution
+
+BlazeMeter supports distributed cloud-based load execution, which removes the need to maintain large test rigs. It is useful when you need:
+
+* Load from multiple geographic regions  
+* High concurrency that exceeds local hardware limits  
+* Built-in dashboards and trend analysis  
+* Integration with CI environments  
+* Easy execution of JMeter scripts without installing JMeter locally  
+
+After uploading the JMX file and data files, you configure load settings, start the test, monitor live charts, and download the final report.
+
+
+
+## Section 14 - JMeter Distributed Mode on Slave Machines
+
+Distributed mode allows a single master to coordinate multiple slave machines to generate higher loads. All machines share the same test plan and communicate using JMeter’s client-server architecture.
+
+### Importance of the Client-Server Mechanism
+
+This mechanism allows:
+
+* Central control from a single master  
+* Parallel load generation from several slaves  
+* Higher total throughput  
+* Ability to scale load without upgrading a single machine  
+
+Each slave runs a JMeter server instance. The master sends instructions, starts the test, synchronizes execution, and collects results.
+
+### Step-by-Step Example to Run Tests on Slave Machines
+
+**1. Install JMeter on All Hosts**  
+Master and all slaves must use the same JMeter version and Java version.
+
+**2. Start JMeter Server on Each Slave**  
+On each slave machine run:
+```
+jmeter-server
+```
+or specify the advertised IP:
+```
+jmeter-server -Djava.rmi.server.hostname=<slave-ip>
+```
+
+**3. Configure Slaves in Master Properties**  
+Edit the file:
+```
+/bin/jmeter.properties
+```
+Set:
+```
+remote_hosts=192.168.1.10,192.168.1.11
+```
+
+**4. Ensure Network Connectivity**  
+Master must reach each slave on RMI-related ports, such as 1099 and the JMeter server port range.
+
+**5. Start the Test from the Master**  
+Run:
+```
+jmeter -n -t TestPlan.jmx -R 192.168.1.10,192.168.1.11 -l results.jtl
+```
+
+**6. Validate Logs**  
+Review the master’s console output and JTL file. Check each slave’s log if communication issues appear. This helps confirm that the distributed test executed correctly.
+
+
+
+## Section 15 - Monitoring Server Performance
+
+Performance testing requires both client-side metrics from JMeter and server-side insights. Monitoring the server provides the information needed to identify bottlenecks and validate system health under load.
+
+### Importance of Server Monitoring
+
+Monitoring allows you to track:
+
+* CPU usage levels and saturation  
+* Memory allocation patterns and leaks  
+* Disk I/O behavior  
+* Thread pool usage and blocking  
+* Database connection usage  
+* System limits that degrade application response time  
+
+Without this information, you cannot accurately locate the root cause of performance issues.
+
+### YourKit Profiler Tool for Server Monitoring
+
+YourKit is a profiler that provides detailed visibility into Java application behavior. It can attach to a running JVM and reveal:
+
+* CPU hotspots  
+* Memory allocation and garbage collection activity  
+* Live thread states and potential deadlocks  
+* Method call timings  
+* Object retention and reference chains  
+* Slow SQL executed within the JVM  
+
+**Typical workflow**
+
+1. Start the application server with the YourKit agent enabled.  
+2. Open the YourKit UI and connect to the JVM.  
+3. Begin the JMeter load test.  
+4. Observe CPU load, memory allocation, thread activity, and garbage collection during the test.  
+5. Capture snapshots to compare behavior across different test runs.
+
+This helps identify whether issues originate from code, thread contention, slow queries, or other dependencies.
+
+### Example Showing Different Server Performance Behaviors
+
+**Healthy Server During Load**
+
+* CPU at moderate levels with short spikes  
+* Memory rising slightly and then stabilizing  
+* GC pauses are short and stable  
+* Response time steady with low variance  
+* Thread pool operating within limits  
+
+**Signs of Stress**
+
+* CPU climbing near saturation  
+* Memory increasing without recovery  
+* Longer GC pauses  
+* Response times are rising steadily  
+* Thread pools queuing requests  
+
+**Critical State**
+
+* CPU pinned at 100 percent  
+* Frequent full GC freezes  
+* Out of memory errors  
+* High number of 5xx responses  
+
+Combining JMeter outputs with server monitoring tools provides a complete picture of system behavior and allows accurate diagnosis of performance issues.
